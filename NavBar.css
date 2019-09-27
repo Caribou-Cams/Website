@@ -1,0 +1,45 @@
+ul {
+  list-style-type: none;
+  top: 0;
+  left: 0;
+  position: fixed;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #958787;
+  width: 100%;
+}
+
+.center{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+li.rightLine{
+  float: right;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 32px 16px;
+  text-decoration: none;
+}
+li img {
+	padding: 0px 500;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
+.active {
+  background-color: #111;
+}
