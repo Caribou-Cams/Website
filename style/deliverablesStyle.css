@@ -1,0 +1,14 @@
+ol {
+	padding: 50px;
+	list-style-position: inside;
+}
+
+ol li {
+	padding-left: 15px;
+	padding-bottom: 20px;
+}
+
+ol li a {
+	display: block-inline;
+	padding-left: 30px;
+}
