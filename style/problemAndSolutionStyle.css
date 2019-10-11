@@ -1,0 +1,51 @@
+h2{
+    padding: 20px;
+    color: #FAFAFA;
+}
+
+p, h3{
+    padding: 5px;
+    color: #FAFAFA;
+}
+
+.problem{
+    padding: 20px;
+    margin: 20px;
+    border-radius: 25px;
+    box-shadow: 0px 10px 28px -6px rgba(0,0,0,0.75);
+    background-color: #AE4C21;
+}
+
+.solution{
+    background-color: #DAAE2C;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0px 10px 28px -6px rgba(0,0,0,0.75);
+}
+
+.work-together{
+    padding: 20px;
+    margin: 20px;
+    border-radius: 25px;
+    box-shadow: 0px 10px 28px -6px rgba(0,0,0,0.75);
+    background-color: #AE4C21;
+}
+
+.App-Stage{
+    width: 25%;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+
+.Overall-Plan{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    text-align: center;
+    position: relative;
+    padding: 10px;
+}
