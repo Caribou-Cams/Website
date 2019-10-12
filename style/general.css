@@ -59,7 +59,6 @@ html {
     background-color: transparent;
 }
 
-
 .header-image {
   position: relative;
 }
@@ -132,67 +131,5 @@ img{
     font-size: 2.7em;
   }
 
-/********** Schedule table **********/
-.schedule, table {
-    margin: 0 auto;
-
-    border-collapse: collapse;
-
-    font-family: Futura, Arial, sans-serif;
-
-}
-
-.schedule caption {
-    font-size: larger;
-    margin: 1em auto;
-    margin-top: 5em
-}
-
-.schedule th,td {
-     padding: .65em;
-}
-
-.schedule th {
-   background: #000033;
-   border: 1px solid #777;
-   color: #fff ;
-}
-
-.schedule td {
-     border: 1px solid#777;
-}
-
-.schedule tbody tr:nth-child(odd) {
-     background: #ccc;
-}
-
-.schedule tbody tr:hover {
-     background: linear-gradient(#006600,#aaa);
-     font-size: 17px;
-}
-
-/********** Deliverables *********/
-#content {
-    margin-top: 60px;
-    margin-bottom: 25px;
-    margin-left: 100px;
-    margin-right: 100px;
-    padding-left: 20px;
-    padding-right: 20px;
-    text-align: left;
-    border: 2px solid black;
-    font-family: helvetica;
-    background-color: white;
-}
-
-object {
-    margin-top: 10px;
-    margin-bottom: 30px;
-    vertical-align: center;
-    display: block;
-    padding-bottom: 30px;
-    border-bottom: 4px dotted black;
-
-}
 
 
