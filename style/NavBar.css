@@ -1,18 +1,7 @@
-* {
-margin:0;
-padding:0;
-}
-
-html {
-  background-color: #FBEEC1;
-  /*background-color: #DAAD86;*/
-  /*background-color: #BC986A;*/
-}
-
 ul {
   -webkit-box-shadow: 0px 10px 28px -6px rgba(0,0,0,0.75);
--moz-box-shadow: 0px 10px 28px -6px rgba(0,0,0,0.75);
-box-shadow: 0px 10px 28px -6px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 10px 28px -6px rgba(0,0,0,0.75);
+  box-shadow: 0px 10px 28px -6px rgba(0,0,0,0.75);
   list-style-type: none;
   top: 0;
   left: 0;
@@ -22,9 +11,11 @@ box-shadow: 0px 10px 28px -6px rgba(0,0,0,0.75);
   padding: 0;
   overflow: hidden;
   /*background-color: #80c34f;*/
-  background-color: #8D8741;
+  background-color: #FAFAFA;
+  color: #022306;
   width: 100%;
 }
+
 /*
 #logo{
   display: inline;
@@ -34,12 +25,12 @@ box-shadow: 0px 10px 28px -6px rgba(0,0,0,0.75);
   display: block;
 }*/
 
-.container {
+.header-image {
   position: relative;
 }
 
 .image {
-	top:0;
+	top: 0;
 	left: 42%;
 	width: 200px;
     height: 300px;
@@ -50,13 +41,12 @@ box-shadow: 0px 10px 28px -6px rgba(0,0,0,0.75);
 
 ul li {
   float: left;
-  width: 19.98%;
-  border: .05px solid #BC986A;
+  width: 25%;
 }
 
 ul li a {
   display: block;
-  color: white;
+  color: #022306;;
   text-align: center;
   padding: 15px 16px;
   text-decoration: none;
@@ -64,11 +54,19 @@ ul li a {
 }
 
 ul li a:hover {
-  background-color: #e29d3e;
+  background-color: #E4D9FF;
   /*background-color: #FBEEC1;*/
+  color: #022306;
 }
 
 .active {
   /*background-color: #30acec;*/
-  background-color: #659DBD;
+  background-color: #090748;
+  color: #E4D9FF;
+}
+
+footer {
+  text-align: center;
+  display: block;
+  color: #E4D9FF;
 }

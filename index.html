@@ -1,45 +1,126 @@
 <html>
-	<head>
-		<title>Homepage</title>
-		<meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
-		<link rel="stylesheet" href='style/NavBar.css'>
-		
-	</head>
-	
-	<body>
-		
-		<div class='container'>
-			<div>
-				<img src = "images/backdrop.jpg" width= '100%' height='65%'>
-			</div>
-			
-			<!--div class = 'image'>
-				<img id = "logo" src = "finalLogo.png" width='175' height = '250'>
-			</div-->
+<head>
+	<title>Homepage</title>
+	<meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
+	<link rel="stylesheet" href='style/general.css'>
+	<link rel="stylesheet" href='style/homepage.css'>
+</head>
+
+
+<body>
+	<header>
+        <div id="navbarHelper">
+            <div id= "nav-bar">
+                <ul>
+                    <div id="logo"><a href="index.html"><img src="images/logo.png" alt=""></a></div>
+					<li><a class = 'active' href ="index.html">Homepage</a></li>
+					<li><a href="problemAndSolution.html">Project Summary</a></li>
+					<li><a href="teamMember.html">About The Team</a></li>
+                    <li><a href = "schedule.html">Schedule</a></li>
+                    <li><a href="deliverables.html">Deliverables</a></li>
+                    <li><a href = "contactUs.html">Contact Info</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+	<div class="header-image">
+		<img src="images/background2.jpg" alt="Norway" style="width:100%;">
+		<div class="upper-right">
+			 <strong> CARIBOU CAMS </strong>
 		</div>
+		<div class = "lower-right">
+			<img src="images/Full Scale Caribou No background.png" width = "75%">
+		</div>		
+	</div>
+
+	<div class = "our-goal">
+		<h2> Smart software tool for classification of caribou camera collar data </h2>
+
+		<h3> Summarized Problem </h3>
+		<p> 
+			By attaching collar cameras to caribou in the Alaska region, our sponsor has been able 
+			to obtain copious amounts of data about caribou and what they do. However, with only 
+			human volunteers currently able to analyze the data, the categorizing and extracting of 
+			important data from these videos will be a long and tedious process.
+			<br><br>
+		</p>
+
+		<h3> Summarized Solution </h3>
 		
-		<ul>
-			<li>
-				<a class = 'active' href = 'index.html'>Homepage</a>
-			</li>
-			
-			<li>
-				<a href="deliverables.html">Deliverables</a>
-			</li>
-			
-			<li>
-				<a href="aboutUs.html">About Us</a>
-			</li>
-			
-			<li>
-				<a href="#link3">Link3</a>
-			</li>
-			
-			<li>
-				<a href = "#link4">Link4</a>
-			</li>
-		</ul>
-		<h1 margin = '30px'>Welcome! We are Caribou Cams</h1>
-	</body>
+		<p> The goal of our project is two-parts: <br></p>
+		
+		<table>
+				<tr>
+					<td>
+						<b> Part 1 </b>
+					</td>
+					<td>
+						<b> Part 2 </b>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						Create an AI Machine that can analyze our clients videos and extract important 
+						information
+					</td>
+					<td>
+						Create an easy-to-use, interactive website that allows volunteers to further 
+						analyze videos quickly and efficiently 
+					</td>
+				</tr>
+			</table>
+
+		<p>
+			<br><br>For a more indepth description of our problem and solution, click <a href = "problemAndSolution.html"> here
+		</p> 
+	</div>
+
+	<div class = "us">
+		<table>
+			<tr>
+				<td>
+					<strong>MEET THE TEAM</strong>
+				</td>
+				<td>
+					<strong>MENTOR</strong>
+				</td>
+				<td>
+					<strong>SPONSOR</strong>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<p>
+						SAMANTHA MUELLNER <br>
+						DONGYANG YU <br>
+						KEENAN SWANSON <br>
+						SHUYUE QIAO <br>
+					</p>
+				</td>
+
+				<td>
+					<p>
+						MAHSA KESHAVARZ <br>
+					</p>
+				</td>
+
+				<td>
+					<p>
+						KATHLEEN ORNDAHL <br>
+					</p> 
+				</td>
+			</tr>
+
+		</table>
+	</div>
+</body>
+
+<footer>
+	<p> Posted By: Samantha Muellner </p>
+	<p> Created By: Caribou Cams Team </p>
+	<p> &copy Caribou Cams </p>
+	<img src="images/Pixel Photo.png" width = "5%">
+</footer>
 
 </html>

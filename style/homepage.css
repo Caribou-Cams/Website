@@ -1,0 +1,64 @@
+/* Container holding the image and the text */
+.header-image {
+    padding-top: 40px;
+    margin-left: -2px;
+    position: relative;
+}
+
+h2{
+    padding: 20px;
+    color: #FAFAFA;
+}
+
+p, h3{
+    padding: 5px;
+    color: #FAFAFA;
+}
+
+table{
+    position: relative;
+    padding: 10px;
+    width: 100%;
+}
+
+
+td{
+    padding: 10px;
+    text-align: left;
+    color: #FAFAFA;
+}
+
+strong{
+    color: #FAFAFA;
+    font-size: 2em;
+}
+  
+/* Bottom right text */
+.upper-right {
+    position: absolute;
+    bottom: 75%;
+    right: 75px;
+    padding-left: 20px;
+    font-size: 14px;
+}
+
+.lower-right {
+    position: absolute;
+    bottom: 30px;
+    left: 1050px;
+}
+
+.our-goal{
+    padding: 20px;
+    margin: 20px;
+    background-color: #DAAE2C;
+    border-radius: 25px;
+    box-shadow: 0px 10px 28px -6px rgba(0,0,0,0.75);
+}
+
+.us{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #AE4C21;
+    box-shadow: 0px 10px 28px -6px rgba(0,0,0,0.75);
+}
