@@ -1,0 +1,35 @@
+/********** Schedule table **********/
+.schedule, table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    font-family: Futura, Arial, sans-serif;
+}
+
+.schedule caption {
+    font-size: larger;
+    margin: 1em auto;
+    margin-top: 3em
+}
+
+.schedule th,td {
+     padding: .65em;
+}
+
+.schedule th {
+   background: #000033;
+   border: 1px solid #777;
+   color: #fff ;
+}
+
+.schedule td {
+     border: 1px solid#777;
+}
+
+.schedule tbody tr:nth-child(odd) {
+     background: #F1C84C;
+}
+
+.schedule tbody tr:hover {
+    background: linear-gradient(#CF6E43,#FAFAFA);
+    color: #000033;
+}
