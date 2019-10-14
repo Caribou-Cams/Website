@@ -1,7 +1,25 @@
 .contact-list{
     background-color: #DAAE2C;
+    margin-top: 2.2%;
+    margin-bottom: 2%;
 }
 
 a{
     color: white;
+}
+
+.names{
+   text-align: center;
+}
+
+.emails{
+   text-align: left;
+}
+
+.text{
+   color: black;
+}
+
+.addInfo{
+   text-align: center;
 }
