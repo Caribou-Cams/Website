@@ -25,75 +25,129 @@
     </header>
 
     <div class = "problem" >
-        <h2> The Problem: </h2>
-                <p> Caribou are the farthest ranging terrestrial mammals in the world, 
-                    traveling up to 3,000 miles in a single year. They number 5 million worldwide 
-                    Yet, despite all of this, we still know very little about them. <br><br>
+        
+        <h2> <br><br>The Problem: </h2>
+            <p> The Earth is dying, and humans are to blame. Millions of species are facing extinction 
+                thanks to humans, yet there's little that we're doing about it. One of these species is 
+                Caribou, the largest, northern-ranging terrestrial animal. They are an important part of 
+                our ecosystem, providing food to large carnivours as well as the indiginous species of 
+                Alaksa and Northern-Canada, yet in the past two decades their numbers have fallen 
+                by more than 50%. Losing such an important species would have devistating effects on the 
+                environment, yet despite that scientists are trying to help caribou increase their 
+                numbers, there's still very little that we know about them. <br><br>
                     
-                    Biologists at the Bureau of Land Management and Environment Yukon have 
-                    deployed video camera collars on caribou herds in remote areas of Alaska and 
-                    Canada. These collars take precisely geolocated, 9 second long video clips 
-                    every 20 minutes. This allows researchers to take a look inside the lives of 
-                    Arctic caribou herds. <br><br>
+                Biologists at the Bureau of Land Management and Environment Yukon have 
+                deployed video camera collars on caribou herds in remote areas of Alaska and 
+                Canada in order to learn more about them. These collars take precisely geolocated, 9 second 
+                long video clips every 20 minutes. This allows researchers to take a look inside the lives of 
+                Arctic caribou herds and gather information such as what the caribou are eating and their 
+                current calf numebrs. <br><br>
 
-                    Currently, scientists have amassed over 90,000 videos, totalling over 3 terabytes 
-                    of data. This data is then analyzed by volunteers for important aspects of a 
-                    caribous day to day life. It has been estimated that the amount of time it would 
-                    take for volunteers to analyze these videos would be a minimum of 1 year, 41 days, 
-                    and 21 hours to analyze these. 
+                Currently, scientists have amassed over 90,000 videos, totalling over 3 terabytes 
+                of data. This data is then analyzed by volunteers for things such as important aspects of a 
+                caribous day to day life, the amount of calves in a herd, and what the caribou are eating. 
+                It has been estimated that the amount of time it would take for volunteers to analyze these 
+                videos would be a minimum of 1 year, 41 days, and 21 hours to analyze these. 
                 </p>
     </div>
 
-    <div class = "solution">
-        <div class = "sub-solution">
-            <h2> The Solution </h2>
-
-            <h3> Part 1: The AI </h3>
+    <div class = "solution-1">
+            <h2> The Solution, Phase 1: The AI</h2>
                 <p>
-                    We see that part of the problem is that human analysis of data takes way too much time. 
-                    Thus, part one of our solution is to create an nueral-network, AI machine that can analyze these videos 
-                    and cut down the amount of time it.<br><br>
+                    Our team found that part of the problem with our client's project is that human analysis of data 
+                    takes way too much time. Thus, phase one of our solution is to create an AI machine 
+                    that can analyze and categorize these videos based on video quality.<br><br>
 
-                    Our AI will analyze these videos and determine specific features about them. We have devised 
-                    a three-step plan of what we want this AI to accomplish, which is as follows:
+                    The specific type of AI machine that we will be creating will be a Convolutional Nueral Network, or 
+                    a CNN. A Neural Network is a set of algorithms designed to simulate the human brain and how it processes 
+                    things. A CNN is a type of neural network that uses a deep learning algorithm that takes in an input 
+                    image, assigns an importance to various objects located in the image, and be able to differentiate one 
+                    from another.
 
-                    As can be seen, Step 1 (the minimum amount we hope to accomplish) is for the AI to be able to 
-                    determine the quality of the video. Qualities vary between Good, Fair, Poor, and Extremely Obstructed. 
-                    Step 2 is for the AI to be able to determine if a caribou is feeding, bedded down, or running. To 
-                    further this, if time permits, we would like to design the AI to be able to pick up how and when 
-                    caribou are trying to scare away bugs (Step 2.5). Step 3 (the maximum amount we hope to accomplish) 
-                    is for the AI to be able to determine what type of plants the caribou are eating.
+                    Our CNN will specifically be trained with videos that have been previously categorized by volunteers. 
+                    The videos will be used to train the AI to recognize four different types of video quality: "Excellent", 
+                    "Good/Fair", "Poor", and "Extremely Obstructed". An indepth definition for each of these can be found in 
+                    our <i>Requirements Specification Document</i> located on our <a href = "deliverables.html"> deliverables 
+                    page</a>. <br><br>
+
+                    Once trained, the CNN will be able to have videos run against it so that the videos will be categorized 
+                    into the above mentioned quality categorize. This solution will help our client by decreasing both the 
+                    amount of videos that need to be anlayzed, as "Extremely Obstructed" videos don't yield anything visual 
+                    and thus don't need to be analyzed for plants, as well as lowering the amount of categories volunteers 
+                    need to analyze in each video.
                     <br><br>
                 </p>
+    </div>
 
-            <h3> Part 2: The Website </h3>
+    <div class = "solution-2">
 
+            <h2> The Solution, Phase 2: The Website</h2>
                 <p>
-                    Since the big problem is that human analysis of data takes way too much time to 
-                    analyze. Since it is unlikely our team will be able to create an AI that will be able to 
-                    extract every type of data that our clients want from these videos, our second solution 
-                    is to create an easy-to-use website that will allow the volunteers to analyse these videos 
-                    in an easier, and more efficient manner.
+                    <i>Phase 2 of the project will only be started once Phase 1 is complete, since our client's main goal is to 
+                    create a working AI that can lower the amount of images needing to be categorized. </i> <br><br>
+
+                    <img src="images/Website Flow.png" alt="Website-flow" class='Website-flow'> 
+
+                    Phase 2 consists of creating a website that provides the volunteers with an easier way to categorize videos. 
+                    A diagram of how our website will be layed out can be seen in the figure above.
+                    
+                    There will be two paths from the main page of the website. The first will be a training path that will allow new 
+                    volunteers to go through a process that teaches them how to recognize the different aspects of videos such as the 
+                    caribou’s habits, the number of calves, and the terrain type. Each time they finish a training video, the user will 
+                    be shown which answers are right and wrong, and be given a score for that video. If the user’s average score for 
+                    all the videos is above 80%, they will then receive an activation code that will allow them to log in to the website.<br><br>
+
+                    An activation code or username/password will allow the volunteer to login to the rest of the website. If using an 
+                    activation code, the volunteer will be able to create a username and password. Once logged in, the volunteer can then 
+                    choose to either analyze videos at Stage 1, the stage where videos need to be analyzed into broader categories such 
+                    as if the caribou is eating or how many calves there are, or Stage 2, the stage where videos need to be analyzed more 
+                    in depth such as for what species of plant the caribou are eating. Each of these stages will take the user to another 
+                    page that allows them to choose specific types of videos. For example, if the volunteer is specialized in plants in the 
+                    tundra regions, they will be able to select the habitat type of “Tundra” and the activity type of “Eating” and be 
+                    presented with videos that fall only into those two categories. These different categorize that can be selected will 
+                    be set to “All” by default.<br><br>
+
+                    After selecting a category, the volunteer will then be taken to a forum page containing a video forum the selected 
+                    categorize they chose. This forum page will consist of the video as well as the forum, which will already have all 
+                    the predetermined categorize filled in and unable to be changed. For instance, the videos name and the video quality 
+                    determined by the AI will already be prefilled and locked so the user cannot change them. The forum will also consist 
+                    of drop-down tabs with predetermined answers already filled in, allowing the user an easy experience analyzing the 
+                    videos. When hitting submit, the data the user has entered into the forum will be saved to a backend database created 
+                    by Django.<br><br>
+
+                    Lastly, there will be a page specifically available to users who login with an admin username/password. The page will 
+                    allow them to see the information in the database. The page will also allow the admins to manage users and videos. <br><br>
+
+                    The creation of this website will help both the volunteers analyzing the videos as well as our client. This website will 
+                    help the volunteers by providing an easy-to-use forum and video on the same page, with the forum already filled out with 
+                    any categorize the video has already been assigned. The website will help out our client by condensing everything (providing 
+                    the videos to volunteers, training the volunteers, analyzing the videos, and the data for the videos) all in one place. <br><br>
+
                 </p>
-        </div>
-        <div class = "sub-solution">
-            <img src="images/App-Stage-Diagram.png" alt="App-Stage" class='App-Stage'>
-        </div>
     </div>
 
 
-    <div class = "work-together">
-        
-        <h2> Our Projects Flow </h2>
-        <p> The way the two parts of our project can be seen as follows: <br><br>
-    
-        <img src="images/Flow-Diagram-Square.png" alt="Overall-Plan" class='Overall-Plan'> 
+    <div class = "work-together"> 
+            <h2> Our Projects Flow </h2>
+            <p> The way the two phases our project work together can be seen in the image below: <br><br>
+                
+                <img src="images/Flow-Diagram-Square.png" alt="Overall-Plan" class='Overall-Plan'>                 
+            
+            <br><b>Phase one</b> of our project, the AI machine, uses previously categorized videos to train itself(1). It is then provided 
+            with uncategorized videos, which it analyzes and sorts into the correct categorize (2). These images are then fed into 
+            <b>Phase two</b> of our project then stores these videos and their information in a secure database. Volunteers then further 
+            analyze these videos for categories unable to be recognized by the AI by entering the information into the provided forum (4). 
+            They submit their information, which is then stored with the video in its secure database (5). In later projects, this 
+            information can then be used to further train the AI to recognize and categorize videos into more specific categories such as 
+            number of calves in a heard or terrain type (6).
+ 
+            <br><br>The initial concept for this project was provided by our sponsor, in the form of this 
+            <a href = "https://www.cefns.nau.edu/~edo/Classes/CS_Capstone/Projects/F19/Orndahl-Goetz-Caribou.pdf" >
+                Capstone Project Proposal</a>
+            
+            </p>
 
-        <br><br>The initial concept for this project was provided by our sponsor, 
-        in the form of this 
-        <a href = "https://www.cefns.nau.edu/~edo/Classes/CS_Capstone/Projects/F19/Orndahl-Goetz-Caribou.pdf" >Capstone Project Proposal</a>
 
-        </p>
     </div>
 
     <footer>
